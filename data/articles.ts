@@ -8,7 +8,7 @@ export const articles: Article[] = [
     excerpt: 'Porsche stojí na prahu největší změny v historii modelu 911. Jak se inženýři z Zuffenhausenu vypořádali s elektrifikací své největší legendy?',
     date: '12. 05. 2024',
     author: 'Jakub Buršík',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1200',
+    image: '/mercedes-hero.webp',
     content: 'Obsah článku o hybridním Porsche...'
   },
   {
@@ -17,7 +17,7 @@ export const articles: Article[] = [
     excerpt: 'Trh s exkluzivními vozy se mění. Které značky si drží hodnotu a proč je právě teď čas na nákup moderních klasik?',
     date: '28. 04. 2024',
     author: 'Jan Buršík',
-    image: 'https://images.unsplash.com/photo-1542362567-b05486f69246?auto=format&fit=crop&q=80&w=1200',
+    image: '/bmw-hero.webp',
     content: 'Obsah článku o investicích...'
   },
   {
@@ -26,7 +26,7 @@ export const articles: Article[] = [
     excerpt: 'Keramická ochrana, PPF fólie nebo garážování? Přinášíme průvodce péčí o ty nejnáročnější povrchy v automobilovém světě.',
     date: '15. 04. 2024',
     author: 'BBCars Team',
-    image: 'https://images.unsplash.com/photo-1603584173870-7f300f7355da?auto=format&fit=crop&q=80&w=1200',
+    image: '/hero-audi.webp',
     content: 'Obsah článku o detailingu...'
   }
 ];

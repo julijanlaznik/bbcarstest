@@ -102,7 +102,7 @@ export const cars: Car[] = [
     inServiceFrom: '03/2024',
     price: '1 690 000 Kč',
     km: '500 km',
-    image: 'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=2000',
+    image: '/hero-audi.webp',
     images: [
       'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=2000'
     ],
@@ -192,7 +192,7 @@ export const cars: Car[] = [
     inServiceFrom: '10/2023',
     price: '3 950 000 Kč',
     km: '1 200 km',
-    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=2000',
+    image: '/bmw-hero.webp',
     images: [
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=2000'
     ],
@@ -237,7 +237,7 @@ export const cars: Car[] = [
     inServiceFrom: '02/2024',
     price: '1 550 000 Kč',
     km: '1 500 km',
-    image: 'https://images.unsplash.com/photo-1556139930-c23fa4a4f934?auto=format&fit=crop&q=80&w=2000',
+    image: 'bmw-hero.webp',
     images: [
       'https://images.unsplash.com/photo-1556139930-c23fa4a4f934?auto=format&fit=crop&q=80&w=2000'
     ],

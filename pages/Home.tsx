@@ -115,9 +115,9 @@ const Home: React.FC<{ lang: Language }> = ({ lang }) => {
   const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.479507817088!2d13.5855263!3d49.7423018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ae9a9c7382f71%3A0x8892f3d242699042!2sPlze%C5%88sk%C3%A1%20968%2C%20337%2001%20Rokycany!5e1!3m2!1scs!2scz!4v1715600000000!5m2!1scs!2scz&maptype=satellite";
 
   const heroImages = [
-    "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=2000"
+    "/hero-audi.webp",
+    "/bmw-hero.webp",
+    "/mercedes-hero.webp"
   ];
 
   useEffect(() => {
@@ -268,7 +268,7 @@ const Home: React.FC<{ lang: Language }> = ({ lang }) => {
               <Link to="/vuz-na-prani" className="inline-block text-[9px] uppercase tracking-[0.5em] font-bold py-4 px-12 bg-white text-black hover:bg-[#dbad1e] transition-all duration-500">ZJISTIT VÍCE</Link>
             </div>
             <div className="relative aspect-video overflow-hidden border border-white/10">
-              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=90&w=1200" alt="Detail" className="w-full h-full object-cover grayscale opacity-40 hover:scale-105 transition-all duration-1000" />
+              <img src="/hero-audi.webp" alt="Detail" className="w-full h-full object-cover grayscale opacity-40 hover:scale-105 transition-all duration-1000" />
             </div>
           </div>
         </div>
@@ -278,7 +278,7 @@ const Home: React.FC<{ lang: Language }> = ({ lang }) => {
         <div className="flex flex-col lg:flex-row h-auto lg:min-h-[500px]">
           <div className="relative w-full lg:w-1/2 p-12 md:p-20 flex flex-col justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
-               <img src="https://images.unsplash.com/photo-1542362567-b05486f69246?auto=format&fit=crop&q=80&w=1200" alt="Showroom Background" className="w-full h-full object-cover grayscale opacity-30" />
+               <img src="/showroom.png" alt="Showroom Background" className="w-full h-full object-cover grayscale opacity-30" />
                <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
             </div>
             <div className="relative z-10">
