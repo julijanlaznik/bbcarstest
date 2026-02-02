@@ -104,7 +104,7 @@ export const cars: Car[] = [
     km: '500 km',
     image: '/hero-audi.webp',
     images: [
-      'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=2000'
+      '/hero-audi.webp'
     ],
     interiorImages: [],
     exteriorImages: [],
