@@ -1,12 +1,9 @@
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./App.tsx",
-    "./index.html"
+    "./index.html",
+    "./**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -14,10 +11,6 @@ module.exports = {
         heading: ['"Syne"', 'sans-serif'],
         sans: ['"Outfit"', 'sans-serif'],
       },
-      letterSpacing: {
-        'luxury': '0.15em',
-        'tighter-extra': '-0.04em',
-      }
     },
   },
   plugins: [],
