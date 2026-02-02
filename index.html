@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&B Cars | Prodej luxusních a prémiových vozů</title>
+    <meta name="description" content="Specializovaný prodejce luxusních vozů. Kurátorský výběr Porsche, Ferrari, Bentley a dalších v showroomu Rokycany.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                heading: ['"Syne"', 'sans-serif'],
+                sans: ['"Outfit"', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #020202;
+            color: #ffffff;
+            font-family: 'Outfit', sans-serif;
+            overflow-x: hidden;
+        }
+        .font-heading { font-family: 'Syne', sans-serif; }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #020202; }
+        ::-webkit-scrollbar-thumb { background: #1a1a1a; }
+        ::-webkit-scrollbar-thumb:hover { background: #dbad1e; }
+        
+        .progress-bar-active {
+            animation: slideProgress 6s linear forwards;
+            background-color: #dbad1e;
+        }
+        @keyframes slideProgress { from { width: 0%; } to { width: 100%; } }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "next/": "https://esm.sh/next@^16.1.6/",
+    "next": "https://esm.sh/next@^16.1.6",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
